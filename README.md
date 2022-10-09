@@ -1,2 +1,3 @@
-# git-init-sample
-# Journey to learning code
+# im just a little guy
+# level 1 code goblin
+jljlj;
