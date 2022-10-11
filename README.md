@@ -35,7 +35,8 @@ Part 2 (Local-On your machine, thru bash or IDE; example is from Visual Studio C
  5. "git push origin main" will then push the files to the repository.
  
  # In order to update your repository run the following:
- 1. "git pull origin main"
+ 1. "git fetch"
+ 2. "git pull origin main"
  
  # Notes:
  (1) If file "text.html" is located in "Folder" and user is in "Subfolder" directory when running commands (i.e. ./Folder/Subfolder/), "git add ." will not stage "text.html" as it is in a higher directory than the current. However, running "git add -A" will stage ALL files in the subfolder AS WELL as the folder containing it.
