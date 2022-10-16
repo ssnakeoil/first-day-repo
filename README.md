@@ -24,7 +24,7 @@ Part 1 (GitHub)
 Part 2 (Local-On your machine, thru bash or IDE; example is from Visual Studio Code with Bash terminal)
  8. Open terminal and navigate to folder on computer where you would like to clone repository (you can do this by clicking around in the IDE or by using cd command ie "cd desired-location" or a series of cd and ls commands to navigate through folders in your computer. ls command will display contents of a folder)
  9. "git clone <pasted url>" and hit enter.
- 10. Repository is cloned. Check status with "git status"
+ 10. Repository is cloned. Enter "git push -u origin main" or "git push -u origin master" if this is YOUR repository (as to be used on multiple machines...)
  
 # Committing files to your repository:
  If you make a change to your local repository, this change will not be reflected in the github repository without a few extra steps.
@@ -35,7 +35,8 @@ Part 2 (Local-On your machine, thru bash or IDE; example is from Visual Studio C
  5. "git push origin main" will then push the files to the repository.
  
  # In order to update your repository run the following:
- 1. "git pull origin main"
+ 1. "git fetch"
+ 2. "git pull origin main"
  
  # Notes:
  (1) If file "text.html" is located in "Folder" and user is in "Subfolder" directory when running commands (i.e. ./Folder/Subfolder/), "git add ." will not stage "text.html" as it is in a higher directory than the current. However, running "git add -A" will stage ALL files in the subfolder AS WELL as the folder containing it.
